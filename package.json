@@ -1,0 +1,34 @@
+{
+  "name": "@bawq/etisalcom-sms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bawq/-bawq-etisalcom-sms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bawq/-bawq-etisalcom-sms/issues"
+  },
+  "homepage": "https://github.com/bawq/bawq-etisalcom-sms#readme",
+  "keywords": [
+    "BAWQ",
+    "SMS",
+    "etisalcom"
+  ],
+  "authors": [
+    "Mustafa Allam <me@mustafaallam.com> (@mustafaallam2)",
+    "Mustafa Abdelbadea <mustafa.abdelbadea@gmail.com> (@mustafaabdelbadea)"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "xml-parser": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/xml-parser": "^1.2.30"
+  }
+}
