@@ -7,8 +7,8 @@ etisalcom SMS integration module uses `HTTP` to communicate with service provide
 ## Usage
 
 ```javascript
-// current is the latest version
- import etisalcomSms from "@bawq/etisalcom-sms";
+
+import etisalcomSms from "@bawq/etisalcom-sms";
 
 const smsSender = new etisalcomSMS({
     accountSid: "<SID>",
